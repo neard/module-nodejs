@@ -46,7 +46,7 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 |                     | Node.js release date | Neard release | Download |
 | ------------------- |:--------------------:|:-------------:|:--------:|
 | **Node.js 0.12.4**  | 2015/05/23 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.12.4-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.12.4-r1.zip) |
-| **Node.js 0.12.9** ![](https://raw.github.com/crazy-max/neard-bin-nodejs/master/img/switchVersion-20151214.png) | 2015/12/03 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.12.9-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.12.9-r1.zip) |
+| **Node.js 0.12.9** ![](https://raw.github.com/crazy-max/neard-bin-nodejs/master/img/star-20151214.png) | 2015/12/03 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.12.9-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.12.9-r1.zip) |
 
 ### 4
 
