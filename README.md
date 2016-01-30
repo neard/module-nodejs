@@ -1,5 +1,21 @@
 This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving Node.js binary bundles.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Download](#download)
+  - [0.10](#010)
+  - [0.11](#011)
+  - [0.12](#012)
+  - [4](#4)
+  - [5](#5)
+- [Issues](#issues)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Installation
 
 * Download and install [Neard](https://github.com/crazy-max/neard).
@@ -22,6 +38,11 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 
 ![](https://raw.github.com/crazy-max/neard-bin-nodejs/master/img/switchVersion-20151214.png)
 
+## Configuration
+
+Npm configuration is located in `neard\bin\nodejs\nodejsx.x.x\etc`.<br />
+Npm cache is global and located in `neard\tmp\npm-cache`.
+
 ## Download
 
 ![](https://raw.github.com/crazy-max/neard-bin-nodejs/master/img/star-20151214.png) : Default bundle on Neard.
@@ -30,35 +51,37 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 
 |                     | Node.js release date | Neard release | Download |
 | ------------------- |:--------------------:|:-------------:|:--------:|
-| **Node.js 0.10.22** | 2013/12/02 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.10.22-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.10.22-r1.zip) |
-| **Node.js 0.10.38** | 2015/03/23 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.10.38-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.10.38-r1.zip) |
-| **Node.js 0.10.41** | 2015/12/03 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.10.41-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.10.41-r1.zip) |
+| **Node.js 0.10.22** | 2013/12/02 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.10.22-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.10.22-r2.zip) |
+| **Node.js 0.10.38** | 2015/03/23 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.10.38-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.10.38-r2.zip) |
+| **Node.js 0.10.41** | 2015/12/03 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.10.41-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.10.41-r2.zip) |
 
 ### 0.11
 
 |                     | Node.js release date | Neard release | Download |
 | ------------------- |:--------------------:|:-------------:|:--------:|
-| **Node.js 0.11.9**  | 2013/12/02 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.11.9-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.11.9-r1.zip) |
-| **Node.js 0.11.16** | 2015/01/30 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.11.16-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.11.16-r1.zip) |
+| **Node.js 0.11.9**  | 2013/12/02 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.11.9-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.11.9-r2.zip) |
+| **Node.js 0.11.16** | 2015/01/30 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.11.16-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.11.16-r2.zip) |
 
 ### 0.12
 
 |                     | Node.js release date | Neard release | Download |
 | ------------------- |:--------------------:|:-------------:|:--------:|
-| **Node.js 0.12.4**  | 2015/05/23 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.12.4-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.12.4-r1.zip) |
-| **Node.js 0.12.9** ![](https://raw.github.com/crazy-max/neard-bin-nodejs/master/img/star-20151214.png) | 2015/12/03 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-0.12.9-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-0.12.9-r1.zip) |
+| **Node.js 0.12.4**  | 2015/05/23 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.12.4-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.12.4-r2.zip) |
+| **Node.js 0.12.9** ![](https://raw.github.com/crazy-max/neard-bin-nodejs/master/img/star-20151214.png) | 2015/12/03 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-0.12.9-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-0.12.9-r2.zip) |
 
 ### 4
 
 |                     | Node.js release date | Neard release | Download |
 | ------------------- |:--------------------:|:-------------:|:--------:|
-| **Node.js 4.2.3**   | 2015/12/03 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-4.2.3-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-4.2.3-r1.zip) |
+| **Node.js 4.2.3**   | 2015/12/03 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-4.2.3-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-4.2.3-r2.zip) |
+| **Node.js 4.2.6**   | 2016/01/21 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-4.2.6-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-4.2.6-r2.zip) |
 
 ### 5
 
 |                     | Node.js release date | Neard release | Download |
 | ------------------- |:--------------------:|:-------------:|:--------:|
-| **Node.js 5.1.1**   | 2015/12/03 | [r1](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r1) | [neard-nodejs-5.1.1-r1.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r1/neard-nodejs-5.1.1-r1.zip) |
+| **Node.js 5.1.1**   | 2015/12/03 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-5.1.1-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-5.1.1-r2.zip) |
+| **Node.js 5.5.0**   | 2016/01/21 | [r2](https://github.com/crazy-max/neard-bin-nodejs/releases/tag/r2) | [neard-nodejs-5.5.0-r2.zip](https://github.com/crazy-max/neard-bin-nodejs/releases/download/r2/neard-nodejs-5.5.0-r2.zip) |
 
 ## Issues
 
