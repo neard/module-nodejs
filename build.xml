@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="neard-bin-apache" basedir=".">
+<project name="neard-bin-nodejs" basedir=".">
     
-    <dirname property="project.basedir" file="${ant.file.neard-bin-apache}" />
+    <dirname property="project.basedir" file="${ant.file.neard-bin-nodejs}" />
     <property name="root.dir" location="${project.basedir}/.." />
     <property name="build.properties" value="${project.basedir}/build.properties" />
     <property file="${build.properties}" />
