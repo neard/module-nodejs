@@ -1,6 +1,6 @@
 This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving Node.js binary bundles.
 
-## Download and installation
+## Documentation and downloads
 
 See [Node.js Wiki page on Neard](https://github.com/crazy-max/neard/wiki/binNode.js).
 
