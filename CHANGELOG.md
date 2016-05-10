@@ -5,7 +5,7 @@
 ## r4 (2016/05/10)
 
 * New bundles : 0.10.45, 0.12.14, 4.4.4, 5.11.1, 6.1.0
-* The support of Windows XP / Vista is dropped since 6.0 ([issue 108 on node.js repo](https://github.com/nodejs/node/issues/3804))
+* Support of Windows XP / Vista is dropped since 6.0 ([issue 108 on node.js repo](https://github.com/nodejs/node/issues/3804))
 * Security issue on OpenSSL ([OpenSSL updates, 1.0.1t and 1.0.2h for Node.js](https://nodejs.org/en/blog/vulnerability/openssl-may-2016/))
 
 ## r3 (2016/04/17)
