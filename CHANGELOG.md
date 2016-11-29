@@ -2,6 +2,10 @@
 
 ### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binNode.js#latest) before downloading.
 
+## r7 (2016/11/29)
+
+* New bundles : 0.10.48, 0.12.17, 4.6.2, 6.9.1, 7.2.0
+
 ## r6 (2016/10/11)
 
 * New bundles : 0.10.47, 0.12.16, 4.6.0, 5.12.0, 6.7.0
