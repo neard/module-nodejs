@@ -1,0 +1,5 @@
+cache = ~NEARD_WIN_PATH~\tmp\npm-cache
+globalconfig = ~NEARD_WIN_PATH~\bin\nodejs\nodejs6.9.2\etc\npmrc
+globalignorefile = ~NEARD_WIN_PATH~\bin\nodejs\nodejs6.9.2\etc\.npmignore
+init-module = ~NEARD_WIN_PATH~\bin\nodejs\nodejs6.9.2\etc\.npm-init.js
+userconfig = ~NEARD_WIN_PATH~\bin\nodejs\nodejs6.9.2\etc\npmrc
