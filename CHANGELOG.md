@@ -1,7 +1,5 @@
 # Changelog
 
-### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binNode.js#latest) before downloading.
-
 ## r8 (2016/12/19)
 
 * New bundles : 4.7.0, 6.9.2, 7.2.1
@@ -32,12 +30,12 @@
 ## r2 (2016/01/30)
 
 * New bundles : 4.2.6, 5.5.0
-* Unexpected result from npm init (Issue [#108](https://github.com/crazy-max/neard/issues/108))
+* Unexpected result from npm init (Issue #108)
 * Move npm config files to `neard\bin\nodejs\nodejsx.x.x\etc`
 * Npm cache is global and located in `neard\tmp\npm-cache`
 
 ## r1 (2015/12/07)
 
-* Init repo with Node.js bundles from [Neard](https://github.com/crazy-max/neard)
+* Init repo with Node.js bundles from Neard
 * New bundles : 0.10.41, 0.12.9, 4.2.3, 5.1.1
 * Create template files (.nrd) for future Neard release
