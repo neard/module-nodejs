@@ -21,26 +21,18 @@
     <replaceproperty src="bundle.folder" dest="bundle.version" replace="${bundle.name}" with=""/>
     
     <getbundlesrc name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
-    <if>
-      <not><available file="${bundle.srcdest}/${bundle.srcfilename}" type="file"/></not>
-      <then>
-        <fail message="File not found: ${bundle.srcdest}/${bundle.srcfilename}"/>
-      </then>
-    </if>
+    <assertdir dir="${bundle.srcdest}/${bundle.srcfilename}"/>
     
     <property name="msiextract.path" value="${bundle.srcdest}/extract"/>
     <extractmsi file="${bundle.srcdest}/${bundle.srcfilename}" dest="${msiextract.path}"/>
-    <if>
-      <not><available file="${msiextract.path}/nodejs/node.exe" type="file"/></not>
-      <then>
-        <fail message="File not found: ${msiextract.path}/nodejs/node.exe"/>
-      </then>
-    </if>
+    <assertfile file="${msiextract.path}/nodejs/node.exe"/>
     
     <delete dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <mkdir dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
-      <fileset dir="${msiextract.path}/nodejs" defaultexcludes="yes"/>
+      <fileset dir="${msiextract.path}/nodejs"/>
+    </copy>
+    <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
       <fileset dir="${bundle.path}" defaultexcludes="yes"/>
     </copy>
   </target>
