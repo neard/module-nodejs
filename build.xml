@@ -21,7 +21,7 @@
     <replaceproperty src="bundle.folder" dest="bundle.version" replace="${bundle.name}" with=""/>
     
     <getmoduleuntouched name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
-    <assertdir dir="${bundle.srcdest}/${bundle.srcfilename}"/>
+    <assertfile file="${bundle.srcdest}/${bundle.srcfilename}"/>
     
     <property name="msiextract.path" value="${bundle.srcdest}/extract"/>
     <extractmsi file="${bundle.srcdest}/${bundle.srcfilename}" dest="${msiextract.path}"/>
