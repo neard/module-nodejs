@@ -1,5 +1,9 @@
 # Changelog
 
+## r11 (2017/03/22)
+
+* New bundles : 4.8.1, 6.10.1, 7.7.4 (Issue crazy-max/neard#236)
+
 ## r10 (2017/03/12)
 
 * New bundles : 4.8.0, 6.10.0, 7.7.2 (Issue crazy-max/neard#232)
