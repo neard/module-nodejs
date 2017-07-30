@@ -1,5 +1,9 @@
 # Changelog
 
+## r15 (2017/07/30)
+
+* New bundle : 8.2.1 (Issue crazy-max/neard#300)
+
 ## r14 (2017/07/13)
 
 * New bundles : 4.8.4, 6.11.1, 7.10.1, 8.1.4 (Issue crazy-max/neard#285)
