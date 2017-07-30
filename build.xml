@@ -21,16 +21,23 @@
     <replaceproperty src="bundle.folder" dest="bundle.version" replace="${bundle.name}" with=""/>
     
     <getmoduleuntouched name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
-    <assertfile file="${bundle.srcdest}/${bundle.srcfilename}"/>
-    
-    <property name="msiextract.path" value="${bundle.srcdest}/extract"/>
-    <extractmsi file="${bundle.srcdest}/${bundle.srcfilename}" dest="${msiextract.path}"/>
-    <assertfile file="${msiextract.path}/nodejs/node.exe"/>
+    <if>
+      <matches string="${bundle.srcdest}/${bundle.srcfilename}" pattern="msi$"/>
+      <then>
+        <extractmsi file="${bundle.srcdest}/${bundle.srcfilename}" dest="${bundle.srcdest}/extract"/>
+        <property name="nodeextract.path" value="${bundle.srcdest}/extract/SourceDir/nodejs"/>
+      </then>
+      <else>
+        <propertyregex property="bundle.srcbasename" input="${bundle.srcfilename}" regexp="(.*)\.(.*)" select="\1"/>
+        <property name="nodeextract.path" value="${bundle.srcdest}/${bundle.srcbasename}"/>
+      </else>
+    </if>
+    <assertfile file="${nodeextract.path}/node.exe"/>
     
     <delete dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <mkdir dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
-      <fileset dir="${msiextract.path}/nodejs"/>
+      <fileset dir="${nodeextract.path}"/>
     </copy>
     <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
       <fileset dir="${bundle.path}" defaultexcludes="yes"/>
