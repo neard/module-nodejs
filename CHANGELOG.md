@@ -1,5 +1,9 @@
 # Changelog
 
+## r18 (2017/10/27)
+
+* New releases : 4.8.5, 6.11.5, 8.8.1 (Issue crazy-max/neard#335)
+
 ## r17 (2017/09/19)
 
 * New releases : 6.11.3, 8.5.0 (Issue crazy-max/neard#332)
