@@ -1,7 +1,7 @@
-[![GitHub release](https://img.shields.io/github/release/crazy-max/neard-bin-nodejs.svg?style=flat-square)](https://github.com/crazy-max/neard-bin-nodejs/releases/latest)
-![Total downloads](https://img.shields.io/github/downloads/crazy-max/neard-bin-nodejs/total.svg?style=flat-square)
+[![GitHub release](https://img.shields.io/github/release/neard/module-nodejs.svg?style=flat-square)](https://github.com/neard/module-nodejs/releases/latest)
+![Total downloads](https://img.shields.io/github/downloads/neard/module-nodejs/total.svg?style=flat-square)
 
-This is a module of [Neard project](https://github.com/crazy-max/neard) involving Node.js.
+This is a module of [Neard project](https://github.com/neard/neard) involving Node.js.
 
 ## Documentation and downloads
 
@@ -9,4 +9,4 @@ http://neard.io/modules/nodejs
 
 ## Issues
 
-Issues must be reported on [Neard repository](https://github.com/crazy-max/neard/issues).
+Issues must be reported on [Neard repository](https://github.com/neard/neard/issues).
