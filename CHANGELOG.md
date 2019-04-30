@@ -1,5 +1,9 @@
 # Changelog
 
+## r22 (2019/04/30)
+
+* New releases : 6.17.1, 8.16.0, 10.15.3, 11.15.0, 12.1.0 (Issue neard/neard#407)
+
 ## r21 (2018/12/16)
 
 * New releases : 6.15.1, 8.14.0, 10.14.2, 11.4.0 (Issue neard/neard#399)
